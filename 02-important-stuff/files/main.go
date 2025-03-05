@@ -46,6 +46,6 @@ func main() {
 		if err != nil {
 			break
 		}
-		fmt.Print(string(buffer[:n]))
+		fmt.Println(string(buffer[:n]))
 	}
 }
